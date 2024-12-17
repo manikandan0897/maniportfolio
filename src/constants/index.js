@@ -1,4 +1,6 @@
 import {
+  rust,
+  anchor,
   creator,
   hardhat,
   solidity,
@@ -68,6 +70,14 @@ const technologies = [
   {
     name: "Solidity",
     icon: solidity,
+  },
+  {
+    name:"Rust",
+    icon : rust,
+  },
+  {
+    name:"Anchor",
+    icon : anchor,
   },
   {
     name: "Hardhat",
